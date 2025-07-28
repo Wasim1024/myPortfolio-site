@@ -96,7 +96,32 @@ body {
     margin:40px 0px 0px 0px;
 }
 
+#back-to-top {
+    display:none;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    color:#f3f3f3;
+    background-color: black;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
 
+
+/* Visible state for the button */
+#back-to-top.show {
+    display: block;
+    opacity:1;
+    transform: translateY(0);
+}
+
+#back-to-top:hover {
+    background-color :#606060;
+}
 
 
 
